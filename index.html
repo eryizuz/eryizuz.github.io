@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Piedra papel y tijeras</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="start" id="start">
+        <h2 class="title">Piedra papel y tijeras</h2>
+
+        <p class="subtitle">Elije una opcion:</p>
+
+        <div class="options-container">
+          <div class="option" id="piedra">
+            <img class="option-img" src="assets/iconos/piedra.png" alt="" />
+          </div>
+          <div class="option" id="papel">
+            <img class="option-img" src="assets/iconos/papel.png" alt="" />
+          </div>
+          <div class="option" id="tijera">
+            <img class="option-img" src="assets/iconos/tijeras.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="result" id="result">
+        <h2 class="title">Y el ganador es...</h2>
+        <p class="subtitle" id="winner"></p>
+
+        <div class="options-container" id="options-container">
+          
+        </div>
+
+        <button class="btn-restart" id="restart">Play again</button>
+      </div>
+    </div>
+
+    <script src="src/scripts-display.js"></script>
+    <script src="src/scripts.js"></script>
+  </body>
+</html>
